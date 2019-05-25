@@ -482,7 +482,6 @@ $sub_color: #F8C51D;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    @include sha;
   }
 }
 
@@ -713,7 +712,8 @@ $sub_color: #F8C51D;
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
-  border-bottom: 1px solid #e1e1e1;
+  border: 1px solid #e1e1e1;
+  border-top: 0;
   background: white;
 
   &-img {

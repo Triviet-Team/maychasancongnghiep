@@ -805,10 +805,6 @@ body .ui-widget.ui-widget-content {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background: white;
-  border: 1px solid #e1e1e1;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
 }
 
 .category-body {
@@ -1016,7 +1012,8 @@ body .ui-widget.ui-widget-content {
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
-  border-bottom: 1px solid #e1e1e1;
+  border: 1px solid #e1e1e1;
+  border-top: 0;
   background: white;
 }
 .box-seller-img {
